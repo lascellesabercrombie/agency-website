@@ -1,6 +1,6 @@
 # fac-project1
 
-##Design meeting
+## Design meeting
 
 21 Jan 
 
@@ -8,6 +8,6 @@
 
 22 Jan
 
-##Deadline for last commits
+## Deadline for last commits
 
 26 Jan
