@@ -1,0 +1,12 @@
+input, textarea {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    padding: 0.5rem;
+}
+label { 
+    display: block;
+}
