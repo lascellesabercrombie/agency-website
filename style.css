@@ -56,8 +56,30 @@ li > a {
   padding: 15px 10px;
 }
 
+#menu-icon {
+  display: none;
+}
+
 /*------------------ ------------------------*/
 
 main {
   padding-top: var(--header-height);
+}
+
+/*------------------MEDIA QUERY------------------------*/
+
+/*Tablet*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/*Mobile*/
+
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
 }
