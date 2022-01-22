@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,10 +43,21 @@
 
         <!-------------CONTACT------------->
         <section id="contact">
+          <h2>Contact Us</h2>
+        <form action="" method="GET">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="company-name">Your Company Name</label>
+            <input type="text" id="company-name" name="company-name" required>
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
         </section>
     </main>
 
     <footer></footer>
 </body>
-
 </html>

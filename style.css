@@ -1,3 +1,4 @@
+
 :root {
   --background-color: rgb(47, 47, 47);
   --font-color: rgb(253, 253, 253);
@@ -60,4 +61,16 @@ li > a {
 
 main {
   padding-top: var(--header-height);
+}
+input, textarea {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    padding: 0.5rem;
+}
+label { 
+    display: block;
 }
