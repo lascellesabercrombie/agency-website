@@ -1,3 +1,67 @@
+
+:root {
+  --background-color: rgb(47, 47, 47);
+  --font-color: rgb(253, 253, 253);
+  --header-height: 100px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/*------------------HEADER-------------------*/
+
+#header {
+  color: var(--font-color);
+  height: var(--header-height);
+  width: 100vw;
+  padding: 10px 15px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+#company-name {
+  min-width: 200px;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  text-align: center;
+}
+
+#navigation {
+  min-width: 60vw;
+}
+
+#menu {
+  height: var(--header-height);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: inherit;
+  padding: 15px 10px;
+}
+
+/*------------------ ------------------------*/
+
+main {
+  padding-top: var(--header-height);
+}
 input, textarea {
     display: block;
     padding: 1rem;
