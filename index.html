@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAC-Project-1</title>
+    <meta name="description"
+        content="Discover Flag to Flag, the web design and development agency. We're providing fresh, creative digital services to clients.">
+    <title>Flag to Flag</title>
     <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
-    <header>
-        <h1>[Company Name]</h1>
+    <header id="header">
+        <h1 id="company-name">Flag to Flag</h1>
+        <nav id="navigation" class="navigation">
+            <ul id="menu" class="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#members">MEMBERS</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <div class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
+
     <section>
         <h2>Our Team</h2>
         <div class="grid">
@@ -62,5 +81,44 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+
+    <main>
+        <!-------------TAGLINE------------->
+        <section>
+        </section>
+
+        <!-------------ABOUT US------------>
+        <section id="about">
+        </section>
+
+        <!-------------MEMBERS------------->
+        <section id="members">
+        </section>
+
+        <!-------------SERVICES------------>
+        <section id="services">
+        </section>
+
+        <!-------------CONTACT------------->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="" method="GET">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="company-name">Your Company Name</label>
+                <input type="text" id="company-name" name="company-name" required>
+                <label for="email">Your email address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message (optional)</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
