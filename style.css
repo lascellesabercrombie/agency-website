@@ -84,7 +84,6 @@ main {
     gap: 0.5rem;
 }
 
-
 /*------------------CONTACT------------------------*/
 
 input,
@@ -99,6 +98,16 @@ button[type="submit"] {
 }
 label {
   display: block;
+}
+
+/*------------------FOOTER------------------------*/
+
+footer {
+    text-align: center;
+}
+footer > small > a {
+    color:rgb(253, 253, 253);
+    text-decoration: underline;
 }
 
 /*------------------MEDIA QUERY------------------------*/
