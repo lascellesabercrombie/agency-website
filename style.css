@@ -172,6 +172,17 @@ p {
   text-align: center;
 }
 
+#logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stack-icons {
+  width: 10%;
+}
+
 /*------------------CONTACT------------------------*/
 
 input,
