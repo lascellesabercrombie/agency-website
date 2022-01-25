@@ -84,6 +84,38 @@ main {
     gap: 0.5rem;
 }
 
+/*------------------MEMBERS------------------------*/
+
+.grid {
+  border: 2px blue solid;
+  display: grid;
+  width: 90vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-content: space-between;
+  gap: 1rem 1rem;
+}
+
+.member {
+    border: 2px orange solid;
+}
+
+.member > img {
+    width: 100%;
+    height: auto;
+    border: 2px red solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.member > h3, p {
+    text-align: center;
+}
+
 /*------------------CONTACT------------------------*/
 
 input,
