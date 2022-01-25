@@ -82,7 +82,6 @@ main {
 /*------------------MEMBERS------------------------*/
 
 .grid {
-  border: 2px blue solid;
   display: grid;
   width: 90vw;
   height: auto;
@@ -93,14 +92,9 @@ main {
   gap: 1rem 1rem;
 }
 
-.member {
-    border: 2px orange solid;
-}
-
 .member > img {
     width: 100%;
     height: auto;
-    border: 2px red solid;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
