@@ -1,6 +1,7 @@
 :root {
   --background-color: rgb(47, 47, 47);
   --font-color: rgb(253, 253, 253);
+  --font-size: 1rem;
   --header-height: 100px;
 }
 
@@ -18,6 +19,10 @@ body {
   background-color: var(--background-color);
 }
 
+main {
+  padding-top: calc(var(--header-height) + 20px);
+}
+
 /*------------------HEADER-------------------*/
 
 #header {
@@ -29,6 +34,7 @@ body {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
 }
 
 #company-name {
@@ -70,18 +76,100 @@ li > a {
   margin: 5px auto;
 }
 
-/*------------------ ------------------------*/
+/*------------------TAGLINE------------------------*/
 
-main {
-  padding-top: calc(var(--header-height) + 20px);
+#tagline-section {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.slideshow {
+  width: 100%;
+  height: inherit;
+  object-fit: fill;
+  opacity: 0.5;
+}
+
+#tagline-text,
+#tagline-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.8rem;
+}
+
+#tagline-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  font-size: var(--font-size);
 }
 
 /*------------------ABOUT US------------------------*/
 
 #about {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
+}
+
+/*------------------MEMBERS------------------------*/
+
+.grid {
+  border: 2px blue solid;
+  display: grid;
+  width: 90vw;
+  height: auto;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  justify-content: space-evenly;
+  gap: 1rem 1rem;
+}
+
+.member {
+  border: 2px orange solid;
+}
+
+.member > img {
+  width: 100%;
+  height: auto;
+  border: 2px red solid;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.member > h3,
+p {
+  text-align: center;
+}
+
+/*------------------SERVICES------------------------*/
+
+#our-services {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.services-icons {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+
+.service {
+  background-color: rgb(160, 160, 160);
+  width: 300px;
+}
+
+.service > h3 {
+  text-align: center;
 }
 
 /*------------------CONTACT------------------------*/
@@ -103,11 +191,11 @@ label {
 /*------------------FOOTER------------------------*/
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 footer > small > a {
-    color:rgb(253, 253, 253);
-    text-decoration: underline;
+  color: rgb(253, 253, 253);
+  text-decoration: underline;
 }
 
 /*------------------MEDIA QUERY------------------------*/
