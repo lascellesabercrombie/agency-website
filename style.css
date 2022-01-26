@@ -196,7 +196,7 @@ li > a {
 /*------------------CONTACT------------------------*/
 
   .required:after {
-    content:" *";
+    content: " *";
     color: red;
   }
 
@@ -210,6 +210,16 @@ li > a {
   border:2px solid rgba(99, 98, 98, 0.863);
   border-radius: 2%;
 }
+
+
+#contact > p {
+  color:rgb(47, 47, 47);
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 0 2rem 1rem 2rem;
+  
+} 
+
 
 input,
 textarea {
