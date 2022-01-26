@@ -8,6 +8,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Sanchez", serif;
 }
 
 html {
@@ -21,6 +22,10 @@ body {
 
 main {
   padding-top: calc(var(--header-height) + 20px);
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 /*------------------HEADER-------------------*/
@@ -109,7 +114,21 @@ li > a {
 
 /*------------------ABOUT US------------------------*/
 
+#about {
+  margin-left: 4rem;
+}
+
+#about > p {
+  font-size: 2rem;
+  margin: 2rem 9rem 2rem 0rem;
+  text-align: left;
+}
+
 /*------------------MEMBERS------------------------*/
+
+#members > h2 {
+  margin-left: 4rem;
+}
 
 .grid {
   display: grid;
@@ -117,6 +136,7 @@ li > a {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   justify-content: space-between;
   gap: 1rem 1rem;
@@ -222,6 +242,7 @@ input:focus, textarea:focus {
 }
 
 #contact > h2 {
+  font-size: 3rem;
   display: block;
   color:rgb(47, 47, 47);
   text-align: center;
@@ -283,5 +304,9 @@ footer > small > a {
   #company-name {
     font-size: 1.7rem;
     min-width: 150px;
+  }
+
+  #contact {
+    width: 90vw;
   }
 }
