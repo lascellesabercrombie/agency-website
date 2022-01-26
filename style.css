@@ -145,6 +145,44 @@ p {
   text-align: center;
 }
 
+/*------------------SERVICES------------------------*/
+
+#our-services {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.services-icons {
+  width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+
+.service {
+  background-color: rgb(160, 160, 160);
+  width: 300px;
+}
+
+.service > h3 {
+  text-align: center;
+}
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stack-icons {
+  width: 10%;
+}
+
 /*------------------CONTACT------------------------*/
 
 input,
