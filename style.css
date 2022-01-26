@@ -168,8 +168,9 @@ li > a:hover {
 }
 
 #about > p {
-  font-size: 2rem;
-  margin: 2rem 9rem 2rem 0rem;
+  font-size: clamp(0.8rem, 4vw, 2.5rem);
+  margin-top: 2rem;
+  width: 70%;
   text-align: left;
 }
 
@@ -418,6 +419,10 @@ footer > small > a {
   #company-name {
     font-size: 1.7rem;
     min-width: 150px;
+  }
+
+  #about > p {
+  width: 85%;
   }
 
   #contact {
