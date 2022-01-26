@@ -9,8 +9,10 @@
         content="Discover Flag to Flag, the web design and development agency. We're providing fresh, creative digital services to clients.">
     <title>Flag to Flag</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header id="header">
         <h1 id="company-name">Flag to Flag</h1>
@@ -33,7 +35,7 @@
 
     <main>
         <!-------------TAGLINE------------->
-        <section id="tagline-section">
+        <section class="" id="tagline-section">
             <!--Photo by Bas van den Eijkhof on https://unsplash.com/s/photos/checkered-flag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText Unsplash-->
             <img class="slideshow" src="./assets/tagline-img1.jpg" alt="background image with chekered flag">
 
@@ -44,21 +46,23 @@
             <img class="slideshow" src="./assets/tagline-img3.jpg"
                 alt="background image with racing car from the sixties">
 
-            <h2 id="tagline-text">Tagline</h2>
-            <button id="tagline-button">More about us</button>
+            <h2 id="tagline-text">Flag to Flag: <br> software at high speed...</h2>
+            <span class="fading"></span>
         </section>
 
         <!-------------ABOUT US------------>
-        <section id="about">
+        <section class="sections" id="about">
             <h2>About Us</h2>
-            <p>The world of software development is moving fast and <em>Flag to Flag</em> will keep you at the head of
+            <p>The world of software development is moving fast and <em class="refer-title">Flag to Flag</em> will keep
+                you at the head of
                 the race. Our team of expert developers has the experience and passion to support your business. Need
-                help with content, web design, digital strategy or analytics? <em>Flag to Flag</em> can take you from
+                help with content, web design, digital strategy or analytics? <em class="refer-title">Flag to Flag</em>
+                can take you from
                 start to finish!</p>
         </section>
 
         <!-------------MEMBERS------------->
-        <section id="members">
+        <section class="sections" id="members">
             <h2>Our Team</h2>
             <div class="grid">
                 <div class="member">
@@ -95,63 +99,63 @@
         </section>
 
         <!-------------SERVICES------------>
-        <section id="services">
+        <section class="sections" id="services">
             <h2>Our services</h2>
             <article id="our-services">
                 <div class="service">
-                    <h3>Web Development</h3>
                     <!--Icons made by https://www.flaticon.com/authors/icongeek26-->
                     <img src="./assets/web-programming.png" alt="desktop window with angle brackets - icon"
                         class="services-icons">
+                    <h3>Web Development</h3>
                     <p>Our Front-end developers deliver within short time frames, to guarantee a fast go to market
                         strategy.</p>
                 </div>
 
                 <div class="service">
-                    <h3>UX/UI Design</h3>
                     <!--Icons made by https://www.flaticon.com/authors/good-ware-->
                     <img src="./assets/user-interface.png" alt="desktop user interface - icon" class="services-icons">
+                    <h3>UX/UI Design</h3>
                     <p>Our team creates stylish and functional interfaces for your web.</p>
                 </div>
 
                 <div class="service">
-                    <h3>Digital Strategy</h3>
                     <!--Icons made by https://www.freepik.com-->
                     <img src="./assets/strategy.png" alt="strategy planning - icon" class="services-icons">
+                    <h3>Digital Strategy</h3>
                     <p>...</p>
                 </div>
 
                 <div class="service">
-                    <h3>Analytics</h3>
                     <!--Icons made by https://www.flaticon.com/authors/becris-->
                     <img src="./assets/analytics.png" alt="desktop window with graphs - icon" class="services-icons">
+                    <h3>Analytics</h3>
                     <p>...</p>
                 </div>
             </article>
             <article id="tech-stack">
                 <h3>Our Tech Stack</h3>
                 <div id="logos">
-                    <div>
+                    <figure>
                         <!--Icons made byhttps://www.freepik.com-->
                         <img src="./assets/js.png" alt="JavaScript logo" class="stack-icons">
-                        <p>JavaScript</p>
-                    </div>
-                    <div>
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
                         <!--Icons made by https://www.flaticon.com/authors/edtim-->
                         <img src="./assets/html.png" alt="HTML logo" class="stack-icons">
-                        <p>HTML</p>
-                    </div>
-                    <div>
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure>
                         <!--Icons made by https://www.flaticon.com/authors/edtim-->
                         <img src="./assets/css.png" alt="CSS logo" class="stack-icons">
-                        <p>CSS</p>
-                    </div>
+                        <figcaption>CSS</figcaption>
+                    </figure>
                 </div>
             </article>
         </section>
 
         <!-------------CONTACT------------->
-        <section id="contact">
+        <section class="sections" id="contact">
             <h2>Contact Us</h2>
             <form action="" method="GET">
                 <label for="name" class="required">Your Name</label>
@@ -163,7 +167,7 @@
                 <label for="message">Message (optional)</label>
                 <textarea id="message" name="message"></textarea>
                 <div class="button-container">
-                <button type="submit">Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </section>
